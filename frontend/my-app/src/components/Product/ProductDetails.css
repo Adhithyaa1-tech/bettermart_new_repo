@@ -1,0 +1,216 @@
+.productDetails{
+
+        background-color: rgb(224, 223, 223);
+        width: 100vw;
+        max-width: 100%;
+        padding: 6vmax;
+        box-sizing: border-box;
+        display: flex;
+      
+      
+}
+
+.productDetails > div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4vmax;
+    box-sizing: border-box;
+    border: 1px solid white;
+} 
+.pdetails{
+    margin: 2vmax;
+
+}
+
+
+.productDetails > div:last-child{
+    align-items: flex-start;
+}
+.corouselImage{
+    width: 20vmax;
+}
+
+.detailsBlock-1 > h2{
+    color: rgb(44, 44, 44);
+    font: 600 1.6vmax "Roboto";
+}
+
+/* .detailsBlock-1 > p{
+    color: rgb(44, 44, 44);
+    font: 200 0.6vmax "Roboto";
+} */
+
+.detailsBlock-2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 70%;
+    padding: 1vmax;
+
+}
+
+/* .detailsBlock-2 > span{
+    color:rgb(44, 44, 44);
+    font: 200 0.6 cursive;
+} */
+.detailsBlock-3{
+    width: 70%;
+}
+.detailsBlock-3 > h1{
+    color: rgb(42, 42, 42);
+    margin: 1vmax 0;
+}
+.detailsBlock-3-1{
+    display: flex;
+}
+.detailsBlock-3-1-1 > button{
+    border: none;
+    background-color: rgb(19, 19, 19);
+    padding: 0.5vmax;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+}
+.detailsBlock-3-1-1 > button:hover{
+    background-color: rgb(33, 32, 32);
+}
+
+.detailsBlock-3-1-1 > input{
+    border: none;
+    padding: 0.5vmax;
+    width: 1vmax;
+    text-align: center;
+    outline: none;
+    color: rgb(30, 29, 29);
+}
+
+.detailsBlock-3-1 > button:last-child {
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+    background-color: tomato;
+    font: 500 0.7vmax "Roboto";
+    border-radius: 20px;
+    padding: 0.5vmax 2vmax;
+    margin: 1vmax;
+    outline: none;
+  }
+
+  .detailsBlock-3-1 > button:last-child:hover {
+    background-color: rgb(214, 84, 61);
+  }
+
+  .detailsBlock-3 > p {
+    border-top: 1px solid rgba(0, 0, 0, 0.205);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+    padding: 1vmax 0;
+    color: rgba(0, 0, 0, 0.651);
+    font: 400 1vmax "Roboto";
+    margin: 1vmax 0;
+  }
+  
+  .detailsBlock-4 {
+    color: rgba(0, 0, 0, 0.897);
+    font: 500 1.2vmax sans-serif;
+  }
+  
+  .detailsBlock-4 > p {
+    color: rgba(0, 0, 0, 0.534);
+    font: 300 0.8vmax sans-serif;
+  }
+
+  /* .reviewsHeading{
+    color: black;
+    font: 500 1.4vmax "Roboto";
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0, 0.226);
+  } */
+  .reviewsHeading {
+    color: #000000be;
+    font: 500 1.4vmax "Roboto";
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+    padding: 1vmax;
+    width: 20vmax;
+    margin: auto;
+    margin-bottom: 4vmax;
+  }
+  .reviews {
+    display: flex;
+    overflow: auto;
+  }
+  
+  .reviewCard {
+    flex: none;
+  
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.226);
+    border: 1px solid rgba(56, 56, 56, 0.116);
+    width: 30vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vmax;
+    padding: 3vmax;
+  }
+  .reviewCard > img {
+    width: 5vmax;
+  }
+  .reviewCard > p {
+    color: rgba(0, 0, 0, 0.836);
+    font: 600 0.9vmax "Roboto";
+  }
+  .reviewCardComment {
+    color: rgba(0, 0, 0, 0.445);
+    font: 300 0.8vmax cursive;
+  }
+  
+  .noReviews {
+    font: 400 1.3vmax "Gill Sans";
+    text-align: center;
+    color: rgba(0, 0, 0, 0.548);
+  }
+  
+  
+  .submitReview {
+    border: none;
+    background-color: tomato;
+    font: 500 0.7vmax "Roboto";
+    border-radius: 20px;
+    padding: 0.6vmax 2vmax;
+    margin: 1vmax 0;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+  }
+  .submitReview:hover {
+    background-color: rgb(197, 68, 45);
+    transform: scale(1.1);
+  }
+
+  .submitDialog {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submitDialogTextArea{
+    border: 1px solid black;
+    font: 500 1.4vmax "Roboto";
+    margin: 1vmax 0;
+    outline: none;
+    padding: 1rem;
+    
+  }
+  
+  @media screen and (max-width: 600px) {
+    .ProductDetails {
+      flex-direction: column;
+      height: unset;
+    }
+}
